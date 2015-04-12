@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ADCell.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return 20;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    static NSString *cellIdentifier = @"cellIdentifier";
+    
+    ADCell *cell = (ADCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    
+    if (!cell) {
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"ADCell" owner:self options:nil]objectAtIndex:0];
+    }
+    
+    cell.cellImg.url = @"http://agenciapxp.com/site/wp-content/uploads/2015/01/Apple-Think_Different-Apple-Logo.jpg";
+    
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return 140;
 }
 
 - (void)didReceiveMemoryWarning {

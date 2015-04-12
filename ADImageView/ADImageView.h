@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ADImageView : UIImageView
+@interface ADImageView : UIImageView {
+
+    UIActivityIndicatorView *progress;
+    NSOperationQueue *queue;
+}
+
+@property (nonatomic, copy) NSString *url;
 
 @end

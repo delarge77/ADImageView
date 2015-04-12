@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADImageView.h"
 
 @interface ADCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet ADImageView *cellImg;
 
 @end

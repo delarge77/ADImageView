@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		877A51071ADB2C9E0039080D /* ADCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A51061ADB2C9E0039080D /* ADCell.m */; };
+		877A510B1ADB2CF50039080D /* ADCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877A510A1ADB2CF50039080D /* ADCell.xib */; };
 		87FA16481ADB1AA200F1857E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA16471ADB1AA200F1857E /* main.m */; };
 		87FA164B1ADB1AA200F1857E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA164A1ADB1AA200F1857E /* AppDelegate.m */; };
 		87FA164E1ADB1AA200F1857E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA164D1ADB1AA200F1857E /* ViewController.m */; };
@@ -14,6 +16,7 @@
 		87FA16531ADB1AA200F1857E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FA16521ADB1AA200F1857E /* Images.xcassets */; };
 		87FA16561ADB1AA200F1857E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87FA16541ADB1AA200F1857E /* LaunchScreen.xib */; };
 		87FA16621ADB1AA200F1857E /* ADImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA16611ADB1AA200F1857E /* ADImageViewTests.m */; };
+		87FA166D1ADB1AC700F1857E /* ADImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA166C1ADB1AC700F1857E /* ADImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		877A51051ADB2C9E0039080D /* ADCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCell.h; sourceTree = "<group>"; };
+		877A51061ADB2C9E0039080D /* ADCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCell.m; sourceTree = "<group>"; };
+		877A510A1ADB2CF50039080D /* ADCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADCell.xib; sourceTree = "<group>"; };
 		87FA16421ADB1AA200F1857E /* ADImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FA16461ADB1AA200F1857E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87FA16471ADB1AA200F1857E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		87FA165B1ADB1AA200F1857E /* ADImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FA16601ADB1AA200F1857E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87FA16611ADB1AA200F1857E /* ADImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADImageViewTests.m; sourceTree = "<group>"; };
+		87FA166B1ADB1AC700F1857E /* ADImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADImageView.h; sourceTree = "<group>"; };
+		87FA166C1ADB1AC700F1857E /* ADImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,9 @@
 		87FA16441ADB1AA200F1857E /* ADImageView */ = {
 			isa = PBXGroup;
 			children = (
+				877A51051ADB2C9E0039080D /* ADCell.h */,
+				877A51061ADB2C9E0039080D /* ADCell.m */,
+				877A510A1ADB2CF50039080D /* ADCell.xib */,
 				87FA16491ADB1AA200F1857E /* AppDelegate.h */,
 				87FA164A1ADB1AA200F1857E /* AppDelegate.m */,
 				87FA164C1ADB1AA200F1857E /* ViewController.h */,
@@ -89,6 +100,8 @@
 				87FA16521ADB1AA200F1857E /* Images.xcassets */,
 				87FA16541ADB1AA200F1857E /* LaunchScreen.xib */,
 				87FA16451ADB1AA200F1857E /* Supporting Files */,
+				87FA166B1ADB1AC700F1857E /* ADImageView.h */,
+				87FA166C1ADB1AC700F1857E /* ADImageView.m */,
 			);
 			path = ADImageView;
 			sourceTree = "<group>";
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877A510B1ADB2CF50039080D /* ADCell.xib in Resources */,
 				87FA16511ADB1AA200F1857E /* Main.storyboard in Resources */,
 				87FA16561ADB1AA200F1857E /* LaunchScreen.xib in Resources */,
 				87FA16531ADB1AA200F1857E /* Images.xcassets in Resources */,
@@ -222,6 +236,8 @@
 				87FA164E1ADB1AA200F1857E /* ViewController.m in Sources */,
 				87FA164B1ADB1AA200F1857E /* AppDelegate.m in Sources */,
 				87FA16481ADB1AA200F1857E /* main.m in Sources */,
+				877A51071ADB2C9E0039080D /* ADCell.m in Sources */,
+				87FA166D1ADB1AC700F1857E /* ADImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 				87FA16671ADB1AA200F1857E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87FA16681ADB1AA200F1857E /* Build configuration list for PBXNativeTarget "ADImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				87FA166A1ADB1AA200F1857E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
