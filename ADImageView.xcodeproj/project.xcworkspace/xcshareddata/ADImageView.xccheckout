@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FED8DF82-AB9C-4F59-9871-C8FF571AE6B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ADImageView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>907F63435CAE9BBF699D7ED6DD80058010C5B43A</key>
+		<string>https://github.com/delarge77/ADImageView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ADImageView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>907F63435CAE9BBF699D7ED6DD80058010C5B43A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/delarge77/ADImageView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>907F63435CAE9BBF699D7ED6DD80058010C5B43A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>907F63435CAE9BBF699D7ED6DD80058010C5B43A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ADImageView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

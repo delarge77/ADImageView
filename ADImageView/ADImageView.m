@@ -11,8 +11,6 @@
 @implementation ADImageView
 @synthesize url = _url;
 
-#define CACHE_ON        YES
-
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         progress = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
@@ -63,7 +61,7 @@
     file = [@"/Documents/" stringByAppendingString:file];
     file = [NSHomeDirectory() stringByAppendingString:[NSString stringWithString:file]];
     
-    if (CACHE_ON && [[NSFileManager defaultManager] fileExistsAtPath:file]) {
+    if ([[NSFileManager defaultManager] fileExistsAtPath:file]) {
         NSData *data = [NSData dataWithContentsOfFile:file];
         if (data) {
             UIImage *img = [[UIImage alloc] initWithData:data];
